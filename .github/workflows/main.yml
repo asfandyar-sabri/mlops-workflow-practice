@@ -1,0 +1,10 @@
+name: Python Linting
+on: push
+jobs:
+build:
+runs-on: ubuntu-latest
+steps:
+- uses: action/checkout@v2
+- name: install dependencies
+run: | pip install flak8
+
