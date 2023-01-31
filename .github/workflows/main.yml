@@ -1,11 +1,9 @@
-name: Python Linting
+name: First Workflow
 on: push
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-- uses: action/checkout@v2
-- name: install dependencies
-run: pip install flak8
-
-
+  check-python-version:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Check version
+      run: python --version
