@@ -1,5 +1,5 @@
 name: mlops_first_workflow
-on: push
+on: [push]
 jobs:
   check-python-version:
   runs_on: ubuntu-latest
