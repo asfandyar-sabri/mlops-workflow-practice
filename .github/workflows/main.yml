@@ -2,8 +2,12 @@ name: First Workflow
 on: push
 jobs:
   check-python-version:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Check version
+  runs-on: ubuntu-latest
+  steps:
+    -uses: actions/checkout@v2
+    - name: Check Python Version
       run: python --version
+  - name: install flake8
+      run: pip install flak8
+    - name: run flake8
+      run: flake8
