@@ -4,10 +4,10 @@ class Wallet:
     def __init__(self, amount):
         balance = amount;
         
-    def addAmount(amount):
+    def addAmount(self, amount):
         balance = balance + amount;
     
-    def removeAmount(amount):
+    def removeAmount(self, amount):
         balance = balance - amount;
         
     def getAmount():
