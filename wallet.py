@@ -11,5 +11,5 @@ class Wallet:
         global balance
         balance = balance - amount;
         
-    def getAmount():
+    def getAmount(self):
         return balance;
