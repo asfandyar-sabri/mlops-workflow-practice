@@ -1,6 +1,7 @@
 balance = 0;
 class Wallet:
     def __init__(self, amount):
+        global balance
         balance = amount;
         
     def addAmount(self, amount):
