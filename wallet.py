@@ -1,5 +1,5 @@
 
-global balance = 0;
+global balance;
 class Wallet:
     def __init__(self, amount):
         balance = amount;
