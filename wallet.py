@@ -1,3 +1,4 @@
+// wallet calculator program
 balance = 0;
 
 class Wallet:
