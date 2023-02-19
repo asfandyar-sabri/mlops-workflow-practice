@@ -1,4 +1,3 @@
-// This program is for MLOps Class
 balance = 0;
 
 class Wallet:
